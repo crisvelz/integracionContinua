@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>TRADUCTOR</title>
+</head>
+<body>
+    <h1 class= "header">TRADUCTOR</h1>
+    <div class="languages-container" style="background-color:#33475b">
+        
+        <label for="translateFrom">Idioma Original:</label>
+        <select name="" id="translateFrom">
+            <option value="es">Español</option>
+        </select>
+
+        <label for="translateTo">Idioma de tradución:</label>
+        <select name="" id="translateTo">
+            
+        </select>
+
+    </div>
+
+    <div class="result-container" style="background-color:#33475b">
+        <div class="contenedorFrom">
+            <label for="inputTranslate">Ingrese el texto a traducir</label>
+            <textarea name="" id="inputTranslate" cols="25" rows="10"></textarea>
+        </div>
+
+        <button id="translate">Traducir</button>
+
+
+        <div class="contenedorTo">
+            <label for="outputTranslate">Traducción</label>
+            <textarea name="" id="outputTranslate" cols="25" rows="10"></textarea>
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
